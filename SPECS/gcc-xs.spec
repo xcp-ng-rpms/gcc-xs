@@ -2,7 +2,7 @@
 Name: %{_name}-xs
 Summary: GCC with modifications
 Version: 7.3.0
-Release: 1.0.0
+Release: 1.0.0%{dist}
 
 License: GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD
 URL: http://gcc.gnu.org
