@@ -8,6 +8,7 @@ License: GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2
 URL: http://gcc.gnu.org
 Source0: https://code.citrite.net/rest/archive/latest/projects/XSU/repos/%{_name}/archive?at=gcc-7_3_0-release&format=tar.gz&prefix=%{name}-%{version}#/%{name}-%{version}.tar.gz
 BuildRequires: gcc
+BuildRequires: gcc-c++
 BuildRequires: bison flex zlib-devel
 BuildRequires: gmp-devel libmpc-devel mpfr-devel
 # For multilib build
